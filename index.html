@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Portofolio | Nama Anda</title>
+    
+    <!-- Google Fonts dan Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- CSS Kustom -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar Sticky -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">M Hafizh<span>.</span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section Fullscreen -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-image" data-aos="fade-right" data-aos-duration="1000">
+                <div class="profile-img-wrapper">
+                    <img src="profile.png" alt="Foto Profil" class="profile-img">
+                </div>
+            </div>
+            <div class="hero-content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <h3 class="greeting">Hello, I'm</h3>
+                <h1 class="name">MUHAMMAD HAFIZH HIDAYATULLAH</h1>
+                <h2 class="title">MAHASISWA UNIVERSITAS PAMULANG</h2>
+                <p class="desc">Membangun solusi digital modern dengan kode berkualitas dan desain elegan.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-duration="800">
+                    <p>Saya adalah mahasiswa Program Studi Sistem Komputer di Universitas Pamulang yang berfokus pada pengembangan perangkat lunak, sistem komputer, dan teknologi berbasis mikrokontroler. Saya aktif mengembangkan keterampilan di bidang pemrograman, desain sistem, dan pemecahan masalah melalui berbagai proyek akademik maupun pembelajaran mandiri. Dengan semangat belajar yang tinggi, saya terus mengeksplorasi teknologi terbaru untuk membangun solusi yang bermanfaat dan inovatif.</p>
+                    <div class="personal-info">
+                        <div><span><i class="fas fa-user"></i> Nama:</span> MUHAMMAD HAFIZH HIDAYATULLAH</div>
+                        <div><span><i class="fas fa-envelope"></i> Email:</span> mhmdhafizh60@gmail.com</div>
+                        <div><span><i class="fas fa-map-marker-alt"></i> Lokasi:</span> SERANG BANTEN, INDONESIA</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="about section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Pendidikan</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card" data-aos="zoom-in" data-aos-duration="600">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>SD</h3>
+                    <p>2013 - 2019</p>
+                    <p>Lulus dari Sekolah Dasar dengan fokus pada pembelajaran dasar akademik dan karakter.</p>
+                </div>
+                <div class="achievement-card" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
+                    <i class="fas fa-school"></i>
+                    <h3>SMP</h3>
+                    <p>2019 - 2021</p>
+                    <p>Mengembangkan kemampuan akademik dan keterampilan sosial di jenjang Sekolah Menengah Pertama.</p>
+                </div>
+                <div class="achievement-card" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
+                    <i class="fas fa-university"></i>
+                    <h3>SMA</h3>
+                    <p>2021 - 2024</p>
+                    <p>Melanjutkan pendidikan di Sekolah Menengah Atas dengan fokus pada persiapan studi lanjutan dan pengembangan diri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organization Section -->
+    <section id="organization" class="about section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Pengalaman Organisasi</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card" data-aos="zoom-in" data-aos-duration="600">
+                    <i class="fas fa-users"></i>
+                    <h3>SMP OSIS</h3>
+                    <p>2019 - 2021</p>
+                    <p>Aktif sebagai pengurus OSIS SMP dalam mendukung kegiatan sekolah dan pembinaan siswa.</p>
+                </div>
+                <div class="achievement-card" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
+                    <i class="fas fa-school"></i>
+                    <h3>SMA OSIS</h3>
+                    <p>2021 - 2022</p>
+                    <p>Berperan dalam perencanaan acara sekolah dan pengembangan program kerja OSIS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Technical Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-info"><i class="fab fa-html5"></i> HTML5</div>
+                    <div class="progress-bar"><div class="progress" style="width: 40%"></div></div>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="150">
+                    <div class="skill-info"><i class="fab fa-css3-alt"></i> CSS3</div>
+                    <div class="progress-bar"><div class="progress" style="width: 30%"></div></div>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-info"><i class="fab fa-js"></i> JavaScript</div>
+                    <div class="progress-bar"><div class="progress" style="width: 27%"></div></div>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="250">
+                    <div class="skill-info"><i class="fab fa-php"></i> PHP</div>
+                    <div class="progress-bar"><div class="progress" style="width: 10%"></div></div>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-info"><i class="fas fa-database"></i> MySQL</div>
+                    <div class="progress-bar"><div class="progress" style="width: 15%"></div></div>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="350">
+                    <div class="skill-info"><i class="fab fa-python"></i> Python</div>
+                    <div class="progress-bar"><div class="progress" style="width: 40%"></div></div>
+                </div>
+                <div class="skill-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-info"><i class="fab fa-laravel"></i> Laravel</div>
+                    <div class="progress-bar"><div class="progress" style="width: 0%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Project</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="flip-left" data-aos-duration="800">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x250?text=Kualitas+Jaringan+Internet" alt="Aplikasi Kualitas Jaringan Internet">
+                        <div class="project-overlay">
+                            <a href="https://www.bantennews.co.id/bantenesia/aplikasi-kualitas-jaringan-internet-menggunakan-load-balancing-metode-pcc-pada-router-mikrotik/" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Aplikasi Kualitas Jaringan Internet</h3>
+                        <p>Studi dan implementasi load balancing metode PCC pada router MikroTik untuk meningkatkan stabilitas dan performa jaringan.</p>
+                        <div class="project-tech">
+                            <span>MikroTik</span><span>Load Balancing</span><span>PCC</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://www.bantennews.co.id/bantenesia/aplikasi-kualitas-jaringan-internet-menggunakan-load-balancing-metode-pcc-pada-router-mikrotik/" class="btn-small" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Lihat Artikel</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section id="experience" class="experience section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Pengalaman Kerja</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right" data-aos-duration="800">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Agustus 2024 - Februari 2025</div>
+                    <div class="timeline-content">
+                        <h3>Admin</h3>
+                        <h4>Allnet Store</h4>
+                        <p>Alamat kerja: Jl. Ayip Usman link.kebaharan dukuh No.rt01/04, Lopang, Kec. Serang, Kota Serang, Banten 42113.</p>
+                        <p>Bertugas sebagai admin di sana, menangani operasional, administrasi, dan dukungan pelanggan.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="150">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">November 2025 - Februari 2026</div>
+                    <div class="timeline-content">
+                        <h3>Operator Gudang</h3>
+                        <h4>SPX Express Cipocok Jaya Hub</h4>
+                        <p>Alamat gudang: V55F+JF6, Cipocok Jaya, Serang City, Kota Serang, Banten 42121.</p>
+                        <p>Melakukan manajemen penerimaan, penyimpanan, dan pengiriman barang di gudang.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Kontak Saya</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right" data-aos-duration="800">
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div><h3>Phone</h3><p>+62 896 5053 4141</p></div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div><h3>Email</h3><p>mhmdhafizh60@gmail.com</p></div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div><h3>Location</h3><p>Banten, Serang City, Indonesia</p></div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left" data-aos-duration="800" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Pesan Anda..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                    <p id="formStatus" style="margin-top: 15px; text-align:center;"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Muhmdhafiizhh. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/muhmdhafiizhh/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
